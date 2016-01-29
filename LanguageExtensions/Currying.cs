@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LanguageExtensions
+namespace System
 {
     /// <summary>
     /// Worthless function extensions.

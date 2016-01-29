@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LanguageExtensions
+namespace System
 {
     public static class Binding
     {
