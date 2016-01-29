@@ -28,7 +28,6 @@ namespace LanguageExtensions
         {
             //You Aren't Going To Need It
             throw new NotImplementedException("You aren't going to need it fail.");
-
         }
     }
 }
