@@ -8,7 +8,7 @@ namespace LanguageExtensions
             => a => b => function(a, b);
 
         public static Func<T1, Func<T2, Func<T3, T4>>> Curry<T1, T2, T3, T4>(this Func<T1, T2, T3, T4> function)
-            => a => b => c =>  function(a, b, c);
+            => a => b => c => function(a, b, c);
 
         public static Func<T1, Func<T2, Func<T3, Func<T4, T5>>>> Curry<T1, T2, T3, T4, T5>(this Func<T1, T2, T3, T4, T5> function)
             => a => b => c => d => function(a, b, c, d);
