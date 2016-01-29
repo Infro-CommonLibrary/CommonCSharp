@@ -2,6 +2,11 @@
 
 namespace LanguageExtensions
 {
+    /// <summary>
+    /// Worthless function extensions.
+    /// Generally, if you need currying, use an anonymous lambda
+    /// If you need edit and debug, then use Curry and Bind
+    /// </summary>
     public static class Currying
     {
         public static Func<T1, Func<T2, T3>> Curry<T1, T2, T3>(this Func<T1, T2, T3> function)
